@@ -1,0 +1,15 @@
+/* purgecss start ignore */
+@tailwind base;
+@tailwind components;
+/* purgecss end ignore */
+@tailwind utilities;
+
+.post-content {
+  @apply text-gray-900;
+}
+
+.post-content p,
+div {
+  @apply mb-4;
+  @apply text-sm;
+}
